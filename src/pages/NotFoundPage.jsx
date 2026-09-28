@@ -1,6 +1,7 @@
 import JournalHeader from "../components/JournalHeader.jsx";
 
 function NotFoundPage() {
+  // Fallback page for URLs that do not match a known app route.
   return (
     <>
       <JournalHeader />

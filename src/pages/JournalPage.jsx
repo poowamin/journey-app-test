@@ -3,11 +3,14 @@ import EntryList from "../components/EntryList.jsx";
 import JournalHeader from "../components/JournalHeader.jsx";
 
 function JournalPage() {
+  // Compose the shared navigation and book, placing the intro and entry list on separate pages.
   return (
     <>
-      <JournalHeader/>
+      <JournalHeader />
       <main>
-        <h1>Journal</h1>
+        <h1 className="mx-auto mt-6 max-w-4xl text-2xl font-semibold text-gray-900 rounded-2xl border border-gray-300 bg-white px-6 py-4 shadow-sm">
+          Journal
+        </h1>
         <BookLayout
           leftPage={
             <>

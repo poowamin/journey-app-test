@@ -3,6 +3,7 @@ import EntryForm from "../components/EntryForm.jsx";
 import JournalHeader from "../components/JournalHeader.jsx";
 
 function WriteEntryPage() {
+  // Reuse the book layout to present the writing form as the right-hand page.
   return (
     <>
       <JournalHeader />

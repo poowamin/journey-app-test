@@ -1,4 +1,5 @@
 function EntryForm() {
+  // These fields are currently presentation-only; no submit handler saves entries yet.
   return (
     <form>
       <h2>Write an entry</h2>
