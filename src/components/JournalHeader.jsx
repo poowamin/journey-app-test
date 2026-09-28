@@ -1,6 +1,6 @@
 function JournalHeader() {
   return (
-    <header className="mx-auto mt-6 flex max-w-4xl items-center justify-between rounded-lg border border-gray-300 bg-white px-6 py-4 shadow-sm">
+    <header className="mx-auto flex max-w-4xl items-center justify-between rounded-lg border border-gray-300 bg-white px-6 py-4 shadow-sm">
       <a className="font-semibold text-gray-900" href="/">
         Journal
       </a>

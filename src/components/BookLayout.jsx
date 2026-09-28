@@ -2,7 +2,7 @@ function BookLayout({ leftPage, rightPage, label = "Journal pages" }) {
   return (
     /* Reusable book shell: callers supply the content for each facing page. */
     <section
-      className="mx-auto mt-6 h-125 w-200 rounded-xl border border-amber-950 bg-amber-900 p-2 shadow-xl mb-6"
+      className="mx-auto mt-6 h-125 w-230 rounded-xl border border-amber-950 bg-amber-900 p-2 shadow-xl mb-6"
       aria-label={label}
     >
       <div className="grid h-full overflow-hidden rounded-lg md:grid-cols-[minmax(0,1fr)_1rem_minmax(0,1fr)]">
